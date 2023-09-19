@@ -7,17 +7,22 @@ import { AppComponent } from './app.component';
 import { UserComponent } from './user/user.component';
 import { PortableComponent } from './portable/portable.component';
 import { HeaderComponent } from './header/header.component';
+import { LoginComponent } from './login/login.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserComponent,
     PortableComponent,
-    HeaderComponent
+    HeaderComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
     AppRoutingModule
   ],
   providers: [],
