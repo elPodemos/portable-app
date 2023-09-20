@@ -8,3 +8,7 @@ export interface Credentials {
     "email": number,
     "password": string
 }
+
+export interface Token {
+    "token": string
+}
